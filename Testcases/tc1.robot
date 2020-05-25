@@ -38,7 +38,6 @@ Open_browser_page
 
 
 click_logout_button
-    click element   xpath://a[@class='ico-logout']
     sleep  5
 
 
