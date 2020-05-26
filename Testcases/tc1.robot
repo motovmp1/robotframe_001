@@ -5,7 +5,7 @@ Library     SeleniumLibrary
 
 
 *** Variables ***
-${browser}      chrome
+${browser}      headLesschrome
 ${URL}     https://demo.nopcommerce.com/
 
 
@@ -38,7 +38,7 @@ Open_browser_page
 
 
 click_logout_button
-    sleep  5
+    sleep  1
 
 
 
