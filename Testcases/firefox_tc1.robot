@@ -5,7 +5,7 @@ Library     SeleniumLibrary
 
 
 *** Variables ***
-${browser}      Chrome
+${browser}      Firefox
 ${URL}     https://demo.nopcommerce.com/
 
 
@@ -42,5 +42,3 @@ click_logout_button
 
 Close_pages_browser
      close browser
-
-
