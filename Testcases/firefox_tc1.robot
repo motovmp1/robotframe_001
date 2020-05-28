@@ -28,12 +28,13 @@ Close_navigator
 Open_browser_page
     open browser        ${URL}      ${browser}
     maximize browser window
-    sleep  5
-    set selenium speed  1
+    sleep  1
+    set selenium speed  0.4
     click link      xpath://a[@class='ico-login']
     input text  id:Email    vinicius.mpinho@gmail.com
     input text  id:Password     123mudar
-    sleep   5
+    click element   xpath://input[@class='button-1 login-button']
+    sleep   1
 
 click_logout_button
     sleep  1
