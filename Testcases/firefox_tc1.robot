@@ -5,7 +5,7 @@ Library     SeleniumLibrary
 
 
 *** Variables ***
-${browser}      Firefox
+${browser}      headLessFirefox
 ${URL}     https://demo.nopcommerce.com/
 
 
